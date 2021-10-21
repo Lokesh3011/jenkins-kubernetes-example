@@ -50,7 +50,7 @@ curl https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-i
 15. Uncomment the port section in the cwagent-daemonset.yaml file as in the following:
 
 ports:
-  -containerPort: 8125
+  - containerPort: 8125
    hostPort: 8125
    protocol: UDP
     

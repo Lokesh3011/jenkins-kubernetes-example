@@ -1,7 +1,7 @@
 # jenkins-kubernetes-example
 =========================Setting up EKS cluster with terraform==================================
 
-1. Navigate to <b>tfcode\providers.tf</b> and edit your shared_credentials_file location wherever your aws credentialss are stored
+1. Navigate to <b>terraformcode\providers.tf</b> and edit your shared_credentials_file location wherever your aws credentialss are stored
 2. Create the EKS cluster by navigating to tfcode directory and run `terraform plan`
    This will show you ~49 resources to add
 3. Run `terraform apply`
